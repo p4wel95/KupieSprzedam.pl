@@ -1,0 +1,383 @@
+body
+{
+	background-color: #404040;
+	font-family: 'Lato', sans-serif;
+        color: white;
+}
+
+.container
+{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.blok
+{
+    background-color: #303030;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+.divm
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.logo
+{
+	font-size: 44px;
+	font-weight: 900;
+        float: left;
+        width: 400px;
+}
+
+.menu
+{
+        float: right;      
+}
+
+.option
+{
+	float: left;
+	height: 25px;
+	font-size: 18px;
+	padding: 10px;
+	border-left: 2px dotted #444444;
+	opacity: 0.8;
+}
+
+.option:hover
+{
+	background-color: #222222;
+	cursor: pointer;
+}
+
+.pole_wyszukiwarki
+{
+    font-family: 'Lato', sans-serif;
+    width: 760px;
+    float:left;
+    background-color: #efefef;
+    color: #444;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 6px;
+    box-sizing: border-box;
+    outline: none;
+    margin-left: 20px;
+}
+
+.textinput
+{
+    font-family: 'Lato', sans-serif;
+    width: 200px;
+    background-color: #efefef;
+    color: #333;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 2px;
+    box-sizing: border-box;
+    outline: none;
+    margin-top: 10px;
+}
+
+.tytulinput
+{
+    font-family: 'Lato', sans-serif;
+    width: 80%;
+    background-color: #efefef;
+    color: #333;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 4px;
+    box-sizing: border-box;
+    outline: none;
+    margin-top: 10px;
+}
+
+
+textarea
+{
+    font-family: 'Lato', sans-serif;
+    background-color: #efefef;
+    color: #000000;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 4px;
+    box-sizing: border-box;
+    outline: none;
+    margin-top: 10px;
+}
+
+.searchSumbit
+{
+	width: 100px;
+	background-color: #cccccc;
+	font-size:20px;
+	color: 222222;
+	padding: 8px 8px;
+	margin-left: 30px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	outline: none;
+}
+
+.submit
+{
+	width: 120px;
+	background-color: #cccccc;
+	font-size:16px;
+	color: 222222;
+	padding: 8px 8px;
+	margin-left: 30px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	outline: none;
+}
+
+input[type=submit]
+{
+	width: 120px;
+	background-color: #cccccc;
+	font-size:16px;
+	color: 222222;
+	padding: 8px 8px;
+	margin-left: 30px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	outline: none;
+}
+
+
+input[type=submit]:hover
+{
+	background-color: #888888;
+}
+
+.cena
+{
+    width: 150px;
+    background-color: #efefef;
+    color: #333;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 2px;
+    box-sizing: border-box;
+    outline: none;
+    margin-top: 10px;
+}
+.selectSort
+{
+    font-family: 'Lato', sans-serif;
+    background-color: #efefef;
+    color: #333;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 2px;
+    box-sizing: border-box;
+    outline: none;
+    margin-top: 10px;
+}
+.czekbox
+{
+    padding: 10px;
+}
+
+.kategorieCol
+{
+
+    float: left;
+    width: 230px;
+    
+}
+
+.kategoria
+{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+    min-width: 230px;
+}
+
+
+.kategoria a:hover
+{
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #222222;
+    padding: 10px;
+}
+
+
+a
+{
+    text-decoration: none;
+    padding: 3px;
+    color: white;
+}
+a:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.ogloszenie
+{
+    background-color: #303030;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 200px;
+}
+
+.zdj_ogloszenia
+{
+    float: left;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+}
+img
+{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.info_ogloszenia
+{
+    float: left;
+    width: 640px;
+    height: 200px;
+    text-align: center;
+}
+
+.tytul_ogloszenia
+{
+    height: 50px;
+}
+
+.cena_ogloszenia
+{
+    height: 50px;
+}
+
+.lokalizacja_ogloszenia
+{
+    height: 50px;
+}
+
+.data_ogloszenia
+{
+    height: 50px;
+}
+
+
+
+.footer
+{
+    background-color: #303030;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.error
+{
+    color:red;
+}
+
+.tytul
+{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.info
+{
+    
+}
+
+.opis
+{
+    width:900px;
+    text-align: left;
+    overflow:auto;
+    white-space: pre-wrap;
+    word-break: break-all;
+    padding: 10px;
+}
+
+.text:focus,
+.pasword:focus
+{
+
+	border: 2px solid #a5cda5;
+	color: #428c42;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 15%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container2 {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
